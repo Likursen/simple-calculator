@@ -8,11 +8,15 @@ public class Utils {
         return scanner.nextInt();
     }
 
-    public static void printMultiplyResult(int firstNumber, int secondNumber) {
-        System.out.println(firstNumber + "*" + secondNumber + "=" + (firstNumber * secondNumber));
+    public static void printResult(String result) {
+        System.out.println(result);
     }
 
-    public static void printSumResult(int firstNumber, int secondNumber) {
-        System.out.println(firstNumber + "+" + secondNumber + "=" + (firstNumber + secondNumber));
+    public static int calculateResultOfMultiplication(int firstNumber, int secondNumber) {
+        return (firstNumber * secondNumber);
+    }
+
+    public static int calculateResultOfSum(int firstNumber, int secondNumber) {
+        return (firstNumber + secondNumber);
     }
 }
